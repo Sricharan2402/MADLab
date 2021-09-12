@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerInParent="true"
+            android:inputType="textMultiLine"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#08F6BE"
+            android:onClick="btnchar"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="1"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="2"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="3"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="4"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="5"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="6"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="7"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="8"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="9"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#66A568"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="0"
+                android:textColor="#ffffff"
+                app:backgroundTint="#66A568" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#06FDB7"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="q"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="w"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="e"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="r"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="t"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="y"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="u"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="i"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="o"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="p"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#02FFB7"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+                    android:background="#D908FD"
+                    android:backgroundTint="#000000"
+                    android:onClick="btnchar"
+                    android:text="a"
+                    android:textColor="#ffffff"
+                    app:backgroundTint="#0223F6" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="s"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="d"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="f"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="g"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="h"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="j"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D908FD"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="k"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#D908FD"
+                    android:backgroundTint="#000000"
+                    android:onClick="btnchar"
+                    android:text="l"
+                    android:textColor="#ffffff"
+                    app:backgroundTint="#0223F6" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#05FBB5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="?"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="z"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="x"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="c"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="v"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="b"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="n"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:backgroundTint="#000000"
+                android:onClick="btnchar"
+                android:text="m"
+                android:textColor="#ffffff"
+                app:backgroundTint="#0223F6" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#777777"
+                android:onClick="btnsp"
+                android:text="del"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="/"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#777777"
+                android:onClick="btnchar"
+                android:text="."
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnsp"
+                android:text="space"
+                app:backgroundTint="#B53131" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#777777"
+                android:onClick="btnsp"
+                android:text="ok"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
