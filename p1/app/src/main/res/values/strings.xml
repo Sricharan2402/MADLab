@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">p1</string>
+    <string-array name="spinnervalues">
+        <item>Bro</item>
+        <item>Sis</item>
+    </string-array>
+</resources>

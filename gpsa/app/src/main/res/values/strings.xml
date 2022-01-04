@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">gpsa</string>
+    <string-array name="spinner">
+        <item>Bro</item>
+        <item>Bro</item>
+        <item>Bro</item>
+        <item>Bro</item>
+
+    </string-array>
+</resources>

@@ -5,6 +5,11 @@
       <map>
         <entry key="..\:/Android/Shapes/app/src/main/res/layout/activity_car.xml" value="0.27447916666666666" />
         <entry key="..\:/Android/Shapes/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/MADLab/Shapes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/MADLab/Shapes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/MADLab/Shapes/app/src/main/res/layout/activity_car.xml" value="0.2545289855072464" />
+        <entry key="..\:/MADLab/Shapes/app/src/main/res/layout/activity_main.xml" value="0.2545289855072464" />
+        <entry key="..\:/MADLab/Shapes/app/src/main/res/layout/activity_shape.xml" value="0.2545289855072464" />
       </map>
     </option>
   </component>
